@@ -45,6 +45,6 @@ app.get('/add', function (req, res) {
     if (n2===0)
         res.send("0으로 나눌수 없습니다.")
  
-    res.send("몫:" +parseInt(result1)+"나머지:" +result2)
+    res.send("몫:" +parseInt(result1)+"  나머지:" +result2)
     
  });
